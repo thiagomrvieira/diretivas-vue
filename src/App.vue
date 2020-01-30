@@ -15,7 +15,10 @@
 
 		<!-- Passando um argumento pra diretiva -->
 		<p v-destaque:fundo ="cor">Usando diretiva personalizada</p>
+		<hr>
 
+		<!-- Usando um modificador -->
+		<p v-destaque:fundo.atrasar ="cor">Usando diretiva personalizada</p>
 
 	</div>
 </template>
